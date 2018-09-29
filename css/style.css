@@ -1,0 +1,83 @@
+/* Fonts / Text */
+body {
+  overflow-y: scroll;
+}
+
+.name {
+  font-family: helvetica, arial, sans-serif;
+}
+
+.job-title {
+  font-family: times, sans-serif;
+}
+
+.featured-work {
+  font-family: helvetica, arial, sans-serif;
+}
+
+.description {
+  font-family: times, serif;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  padding-top: 10px;
+}
+
+img .main-image{
+  align: center;
+}
+
+/* Header */
+header {
+  padding-top: 10px;
+}
+
+header .container {
+  display: flex;
+  position: relative;
+}
+
+header .divider {
+  border-bottom: solid 3px;
+  width: 100%;
+}
+
+header .left-header {
+  width: 25%;
+  float: left;
+}
+
+header .right-header {
+  width: 75%;
+  text-align: right;
+  float: right;
+}
+
+header .pic {
+  background: url(../img/ethan.jpg);
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  display: inline-block;
+}
+
+/* features */
+#features {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#features .feature {
+  width: 29%;
+  margin-bottom: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+}

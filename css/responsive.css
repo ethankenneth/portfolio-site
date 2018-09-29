@@ -1,0 +1,16 @@
+/* small screens for Mobile: Google Nexus 5 */
+@media screen and (max-width: 550px) {
+  #features .feature {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 2%;
+  }
+}
+
+/* medium screens for Tablet: Apple iPad */
+@media screen and (max-width: 768px) {
+  #features .feature {
+    width: 29%;
+  }
+}
